@@ -17,5 +17,19 @@ h1 {
     position: absolute;
     top: 130px;
     right: 39%;
-    filter: drop-shadow(0 0 10px darkblue);
+    filter: drop-shadow(0 0 10px rgb(3, 3, 114));
+}
+
+body {
+    background-color: rgb(13, 12, 12);
+}
+
+.founders img {
+    width: 450px;
+    margin: 40px;
+}
+
+p {
+    color: white;
+    position: absolute(right: 20px, top: 40px);
 }
