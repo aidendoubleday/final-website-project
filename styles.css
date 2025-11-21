@@ -29,21 +29,13 @@ body {
     margin: 40px;
 }
 
-p {
-    color: white;
-}
-
 .container {
     display: flex;
     justify-content: flex-start;
 }
 
-p {
-    margin-left: 8.2%;
-}
-
 h2 {
-    margin-left: 50%;
+    margin-left: 60%;
     position: absolute;
     top: 630px;
     color: white;
@@ -51,19 +43,37 @@ h2 {
 
 .founders {
     display: flex;
-    border-bottom: 3px white;
-    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+    padding-bottom: -20px;
 }
 
 .hover-text {
     color: white;
-    font-size: 23px;
+    font-size: 23.5px;
     display: inline-block;
     transition: all 0.3s ease;
 }
 
 .hover-text:hover {
-    color: blue;
+    color: red;
     font-weight: bold;
     font-size: 27px;
+}
+
+.founders p {
+    color: white;
+    margin-left: -21%;
+}
+
+@keyframes slideinfromleft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-text {
+    animation: slideinfromleft 1s ease-out
 }
