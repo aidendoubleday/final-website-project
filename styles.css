@@ -17,10 +17,11 @@ h1 {
     position: absolute;
     top: 130px;
     right: 39%;
-    filter: drop-shadow(0 0 10px rgb(3, 3, 114));
+    filter: drop-shadow(0 0 10px #030372);
+    font-family: "Playfair Display", serif;
 }
 
-body {
+.mainpage {
     background-color: rgb(13, 12, 12);
 }
 
@@ -74,6 +75,42 @@ h2 {
     }
 }
 
-.slide-text {
-    animation: slideinfromleft 1s ease-out
+.column2 {
+    animation: slideinfromleft 0.8s ease-out;
+    transform: translateX(-100%);
+    transform: translateX(0);
+}
+
+.link {
+    position: absolute;
+    right: 60px;
+    font-size: 140%;
+}
+
+.mainhistory {
+    background-color: rgba(44, 44, 161, 0.945);
+}
+
+.link2 {
+    position: absolute;
+    bottom: 1.5px;
+    font-size: 120%;
+    margin: 20px;
+}
+
+.bmwstart h1 {
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+}
+
+.bmwplanes {
+    position: absolute;
+    bottom: 550px;
+    left: 450px;
+}
+
+.bmwlength h1 {
+    font-size: 20px;
+    position: absolute;
 }
