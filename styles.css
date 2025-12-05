@@ -112,5 +112,26 @@ h2 {
 
 .bmwlength h1 {
     font-size: 20px;
+    left: 1000px;
+    top: 300px;
+}
+
+.moneyimage {
     position: absolute;
+    top: 92%;
+    right: 37%;
+}
+
+.link3 {
+    position: absolute;
+    font-size: 120%;
+    bottom: 1.5px;
+    right: 20px;
+}
+
+.link4 {
+    position: absolute;
+    font-size: 120%;
+    bottom: 1.5px;
+    margin: 20px;
 }
