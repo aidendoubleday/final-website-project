@@ -106,20 +106,20 @@ h2 {
 
 .bmwplanes {
     position: absolute;
-    bottom: 550px;
-    left: 450px;
+    bottom: 500px;
+    left: 800px;
 }
 
 .bmwlength h1 {
+    position: absolute;
     font-size: 20px;
-    left: 1000px;
-    top: 300px;
+    top: 600px;
 }
 
 .moneyimage {
     position: absolute;
     top: 92%;
-    right: 37%;
+    right: 42%;
 }
 
 .link3 {
@@ -138,7 +138,7 @@ h2 {
 
 .bmwX5 {
     position: absolute;
-    left: 660px;
+    left: 760px;
     top: 200px;
 }
 
@@ -149,11 +149,30 @@ h2 {
 
 .X5facts h4 {
     position: absolute;
-    left: 738px;
+    left: 838px;
 }
 
 .X5facts p {
     position: absolute;
     top: 380px;
+    left: 12px;
+}
+
+.bmw3series {
+    position: absolute;
+    left: 760px;
+    top: 480px;
+}
+
+.bmw3series h4 {
+    position: absolute;
+    left: 36%;
+    top: 5%;
+    font-size: 15px;
+}
+
+.bmw3seriesfacts {
+    position: absolute;
+    top: 75%;
     left: 12px;
 }
