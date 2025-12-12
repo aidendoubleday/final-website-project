@@ -13,9 +13,9 @@ h1 {
     text-align: center;
 }
 
-.column2 h1 {
+.header h1 {
     position: absolute;
-    top: 130px;
+    top: 110px;
     right: 39%;
     filter: drop-shadow(0 0 10px #030372);
     font-family: "Playfair Display", serif;
@@ -75,7 +75,7 @@ h2 {
     }
 }
 
-.column2 {
+.header h1 {
     animation: slideinfromleft 0.8s ease-out;
     transform: translateX(-100%);
     transform: translateX(0);
